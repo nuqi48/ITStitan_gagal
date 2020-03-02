@@ -3,7 +3,7 @@
 
     ob_start();
     session_start();
-    if(!isset($_SESSION['user_id'])) header("location: home.html");
+    if(!isset($_SESSION['users_id'])) header("location: home.html");
     include "assets/includes/db.php";
 
 ?>
