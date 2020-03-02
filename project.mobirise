@@ -40,9 +40,11 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
+              "background": "#2969b0"
             },
-            ".mbr-navbar__section": {},
+            ".mbr-navbar__section": {
+              "background": "#2969b0"
+            },
             ".mbr-navbar__hamburger": {
               "color": "#ffffff"
             },
@@ -58,8 +60,8 @@
             "showButtons": false,
             "sticky": true,
             "collapsed": false,
-            "transparent": true,
-            "color": "#2c2c2c",
+            "transparent": false,
+            "color": "#2969b0",
             "hamburgerColor": "#ffffff"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
@@ -81,7 +83,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ITS Titan Sarana Niaga</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">IT Support<br>PT.Titan Sarana Niaga</a>",
           "_tags": [
             "Theme"
           ],
@@ -99,37 +101,43 @@
             "bgColor": "#ffffff",
             "slides": [
               {
-                "image": "images/slide1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/it-support-background-1200x900.jpeg",
                 "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
-                "title": "Slide 1",
-                "contentAlign": "right",
-                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "images/slide2.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Slide 2",
+                "title": "IT Support",
                 "contentAlign": "left",
-                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "text": "<b>Mensupport pekerjaan Anda di PT.Titan Sarana Niaga</b>",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DAFTAR</a>  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MASUK</a> ",
+                "alt": "",
+                "overlay": true
               },
               {
-                "image": "images/slide3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/it-service-1200x674.png",
                 "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
-                "title": "Slide 3",
+                "title": "Problem?",
+                "contentAlign": "right",
+                "text": "Apa Problem Anda, Ajukan dan buat ticket laporan atas masalah Anda disini, JANGAN LAPOR MASALAH KELUARGA !!!",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DAFTAR</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MASUK</a>",
+                "overlay": true,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/software-web-photo-1000x667.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "CARANYA?",
                 "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "text": "Daftar diri Anda disini, <br>hanya PT.TSN yang dapat menggunakan Applikasi web ini,",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DAFTAR</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MASUK</a>",
+                "overlay": true,
+                "alt": ""
               }
             ]
           },
@@ -138,7 +146,17 @@
             "Theme"
           ],
           "_name": "slider",
-          "_anchor": "slider-2"
+          "_anchor": "slider-2",
+          "_styles": {
+            "H1": {
+              "text-align": "left",
+              "color": "#ffffff"
+            },
+            "P": {
+              "text-align": "left",
+              "color": "#ffffff"
+            }
+          }
         }
       ]
     }

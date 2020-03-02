@@ -4,7 +4,10 @@
   font-size: 16px;
 }
 #menu-0.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
+  background: #2969b0;
+}
+#menu-0 .mbr-navbar__section {
+  background: #2969b0;
 }
 #menu-0 .mbr-navbar__hamburger {
   color: #ffffff;
@@ -12,4 +15,12 @@
 #menu-0 .mbr-brand__name a {
   font-size: 16px;
   font-family: 'Slabo 27px', serif;
+}
+#slider-2 H1 {
+  text-align: left;
+  color: #ffffff;
+}
+#slider-2 P {
+  text-align: left;
+  color: #ffffff;
 }
