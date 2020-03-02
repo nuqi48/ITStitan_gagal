@@ -1,5 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 
+#menu-4 .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-4.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2969b0;
+}
+#menu-4 .mbr-navbar__section {
+  background: #2969b0;
+}
+#menu-4 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#menu-4 .mbr-brand__name a {
+  font-size: 16px;
+  font-family: 'Slabo 27px', serif;
+}
+
 #menu-0 .mbr-brand__name {
   font-size: 16px;
 }
@@ -25,19 +42,19 @@
   color: #ffffff;
 }
 
-#menu-4 .mbr-brand__name {
+#menu-7 .mbr-brand__name {
   font-size: 16px;
 }
-#menu-4.mbr-navbar--stuck .mbr-navbar__section {
+#menu-7.mbr-navbar--stuck .mbr-navbar__section {
   background: #2969b0;
 }
-#menu-4 .mbr-navbar__section {
+#menu-7 .mbr-navbar__section {
   background: #2969b0;
 }
-#menu-4 .mbr-navbar__hamburger {
+#menu-7 .mbr-navbar__hamburger {
   color: #ffffff;
 }
-#menu-4 .mbr-brand__name a {
+#menu-7 .mbr-brand__name a {
   font-size: 16px;
   font-family: 'Slabo 27px', serif;
 }
