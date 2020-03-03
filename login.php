@@ -34,7 +34,7 @@
                 <div class="mbr-navbar__column mbr-navbar__menu">
                     <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
                         <div class="mbr-navbar__column">
-                            <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="http://home.php">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="http://lapor.php">LAPOR MASALAH</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="http://logout.php">LOGOUT</a></li></ul>                            
+                            <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="http://home.php">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="http://lapor.php">LAPOR MASALAH</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="http://login.php">LOGIN</a></li></ul>                            
                             
                         </div>
                     </nav>
@@ -44,8 +44,39 @@
     </div>
 </section>
 
+<section class="engine"><a href="https://mobirise.info/s">free bootstrap theme</a></section><section class="mbr-slider mbr-section mbr-section--no-padding carousel slide mbr-after-navbar" data-ride="carousel" data-wrap="true" data-interval="5000" id="slider-2" data-rv-view="2" style="background-color: rgb(255, 255, 255);">
 
-  <section class="engine"><a href="https://mobirise.info/p">website templates free download</a></section><script src="assets/web/assets/jquery/jquery.min.js"></script>
+    <div class="container-fluid">
+
+  <div class="row" align="center">
+    <div class="col-sm-3 col-md-6" style="background-color:#87CEEB" align="center";>
+      <p> <form action="login.php" method="POST">
+        <fieldset class="center" style="color-rendering: ">
+        </br>
+         <center><legend>Login</legend></center>
+        <center> <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="username..." />
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="password..." />
+        </p>
+        <p>
+            <label><input type="checkbox" name="remember" value="remember" /> Remember me</label>
+        </p>
+        <p>
+            <input type="submit" class="btn btn-info" name="submit" value="Login" />
+        </p></center>
+        </fieldset>
+    </form></p>
+    </div>
+  </div>
+</div>
+
+</section>
+
+  <section class="engine"><a href="https://mobirise.info">Mobirise</a></section><script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5"></script>
   <script src="https://apis.google.com/js/plusone.js"></script>
